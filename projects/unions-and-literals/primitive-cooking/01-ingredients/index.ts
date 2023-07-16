@@ -1,8 +1,10 @@
 // Please correct any type annotation problems here! ✨
-let arugula: number;
+type NumberOrUndefined = number | undefined;
+
+let arugula: NumberOrUndefined;
+let lettuce: NumberOrUndefined;
 let dressing: string;
-let lettuce: number;
-let mealDate: string;
+let mealDate: Date;
 
 arugula = 2;
 dressing = "honey dijon";
